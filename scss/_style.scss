@@ -1,0 +1,238 @@
+@import "settings";
+$text-color: #fff;
+@media #{$small-up} {
+  #front {
+    background-image: url('../images/library.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    max-height: 400px;
+    margin-bottom: 0;
+  }
+
+  #blockbig, #popbig, #monthbig, #search {
+    display: none;
+  }
+
+  #monthsm {
+    display: block;
+  }
+
+  #example-menu > div.top-bar-left > ul {
+    display: none;
+  }
+.button.success{
+  background-color: green;
+}
+  .title-bar {
+    background-color: #d22a30;
+    color: wheat;
+    padding: 0.5rem;
+  }
+
+  .small-head-title {
+    color: black;
+  }
+
+  .popsm {
+    background-color: beige;
+    img {
+      float: right;
+      margin-right: 70px;
+    }
+    li {
+      padding-bottom: 20px;
+    }
+  }
+
+  .monthsm {
+    img {
+      float: right;
+      margin-right: 70px;
+    }
+    li {
+      padding-bottom: 30px;
+    }
+  }
+
+  blockquote {
+    background-color: #d22a30;
+    border-left: 5px solid #cacaca;
+    p {
+      color: white;
+      text-align: left;
+    }
+    small {
+      color: white;
+      font-size: 1em;
+    }
+  }
+
+  .overlay-container {
+    position: relative;
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 0.4rem;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  .top-bar {
+    padding: 0;
+    background-color: #d22a30;
+  }
+
+  .fa {
+    font-size: 20px;
+    color: whitesmoke;
+  }
+
+  .fa-bars {
+    font-size: 30px;
+    color: whitesmoke;
+    margin-top: 5px;
+  }
+
+  .iright {
+    float: right;
+  }
+
+  .media-object-section img {
+    width: 200px;
+  }
+
+  .writer {
+    background-color: beige;
+    margin-top: 30px;
+  }
+
+  .categories {
+    margin-top: 35px;
+    background-color: #d22a30;
+  }
+
+  body > div.row.maincont > div.large-4.medium-4.columns > div.callout.categories > ul > li > ul {
+    background-color: #d22a30;
+  }
+
+  .orbit-caption {
+    padding: 0;
+  }
+
+  .full-width {
+    max-width: 1400px;
+  }
+
+
+
+  // footer CSS
+
+  .footer {
+    background-color: #d22a30;
+    padding: 2rem 4rem;
+    text-align: center;
+    color: $text-color;
+    i {
+      font-size: 100px;
+    }
+  }
+
+  .footer {
+    h4 {
+      color: $text-color;
+      font-size: 1em;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-top: 2.5rem;
+      margin-bottom: 10px;
+    }
+    p, a {
+      font-weight: 300;
+      font-size: .8em;
+      color: $text-color;
+    }
+  }
+
+  .fa-heart{
+    color: #d22a30;
+  }
+
+  .top-bar-right, .top-bar-left {
+    color: ghostwhite;
+  font-weight: 600;
+  font-size: 1.3em;
+  }
+
+
+.titlesm{
+  color: black;
+  margin-bottom: 0;
+}
+
+.writersm{
+  color: black;
+  font-size: 0.8em;
+  margin-bottom: 0;
+}
+
+
+  .footer-links {
+    list-style-type: none;
+    li {
+      margin-top: .5em;
+    }
+  }
+
+  .footer-links{
+    margin-left: 0;
+}
+
+}
+
+@media #{$medium-up} {
+
+  #front {
+    background-image: url('../images/library.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    max-height: 400px;
+    margin-bottom: 0;
+  }
+
+  #example-menu > div.top-bar-left > ul {
+    display: block;
+  }
+
+  blockquote {
+    background-color: #d22a30;
+    border-left: 5px solid #cacaca;
+    margin-top: 100px;
+    p {
+      color: white;
+      text-align: left;
+    }
+  }
+
+  #blocksm, #searchsm, #popsm,   #monthsm {
+    display: none;
+  }
+
+  #blockbig,#search,#popbig, #monthbig   {
+    display: block;
+  }
+  .button.success{
+    background-color: green;
+  }
+ }
